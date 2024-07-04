@@ -1,0 +1,79 @@
+* {
+    margin: 0%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+ div#main {
+    position: relative;
+    width: 100%;
+    background: #FFFFFF;
+}
+
+div#main {
+    height: 600px;
+    width: 600px;
+    border: 2px solid rgb(205, 202, 202);
+    display: inline-block;
+    margin-left: 35%;
+    margin-top: 10%;
+    border-radius: 15px;
+}
+
+h2.shopName {
+    font-size: 45px;
+    font-family: sans-serif;
+    margin-top: 50px;
+    font-weight: 100;
+    text-align: center;
+}
+
+h4.find {
+    font-size: 31px;
+    font-family: sans-serif;
+    margin-top: 20px;
+    font-weight: 100;
+    text-align: center;
+
+}
+
+label.number{
+    position: absolute;
+    font-size: 25px;
+    margin-top: 50px;
+    text-align: left;
+    margin-left: 40px;
+    font-family: sans-serif;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+
+  
+input#find {
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 40px;
+    border-radius: 15px;
+    height: 40px;
+    width: 80%;
+}
+
+input#find:focus {   
+    outline: none !important;
+    border: 3px solid #1a73e8;
+}
+.btn{
+    position: absolute;
+    margin-top:125px;
+    margin-left: 420px;   
+    font-size: 20px;
+    font-family: sans-serif;
+    text-decoration: none;
+    width: 100px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: #1a73e8;
+    color: #fff;
+    cursor: pointer;
+}
