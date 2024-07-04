@@ -1,0 +1,431 @@
+* {
+    margin: 0%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+ div#main {
+    position: relative;
+    width: 100%;
+    height: 1720px;
+    background: #FFFFFF;
+}
+
+div#header{
+    position: absolute;
+    width: 100%;
+    height: 177px;
+    left: 0px;
+    top: 0px;
+    margin: 2px;  
+}
+
+div.heading {
+    position: absolute;
+    width: 100%;
+    height: 120px;
+    left: 0px;
+    top: 0px;
+}
+div.heading a:hover{
+    text-decoration: underline rgb(176, 174, 174) 4px;
+
+}
+
+h3.shopName {
+    position: absolute;
+    width: 198px;
+    height: 69px;
+    left: 77px;
+    top: 35px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 43px;
+    line-height: 52px;
+    color: #000000;
+}
+
+#searchBar {
+    position: absolute;
+    width: 634px;
+    height: 55px;
+    left: 1600px;
+    top: 30px;
+    background: #E1E6EA;
+    border-radius: 104px;
+    text-align: center;
+    font-size: 21px; 
+}
+input#searchBar:focus {   
+    outline: none !important;
+    border: 3px solid #D6D6D6;
+}
+
+/* a.home{
+    position: absolute;
+    width: 87px;
+    height: 29px;
+    left: 1114px;
+    top: 51px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 25px;
+    color: #000000;
+    text-decoration: none;
+}
+
+img.loginicon{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 1294px;
+    top: 47px;
+
+}
+
+a.login{
+    position: absolute;
+    width: 87px;
+    height: 29px;
+    left: 1327px;
+    top: 51px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 25px;
+    color: #000000;
+    text-decoration: none;
+}
+
+img.carticon {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 1507px;
+    top: 51px;   
+}
+
+a.cart {
+    position: absolute;
+    width: 73px;
+    height: 27px;
+    left: 1540px;
+    top: 53px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 25px;
+    color: #000000;
+    text-decoration: none;
+}
+a.aboutUs {
+    position: absolute;
+    width: 93px;
+    height: 29px;
+    left: 1720px;
+    top: 53px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 25px;
+    color: #000000;
+    text-decoration: none;
+} */
+
+div.nav{
+    position: absolute;
+    width: 100%;
+    height: 57px;
+    left: 0px;
+    top: 120px;
+    background: #D6D6D6;
+    z-index:10;
+}
+a {
+    font-size: 30px;
+    color: #000;
+    text-decoration: none;
+    /* text-transform: uppercase; */
+}
+
+.nav-area {
+    background: #D6D6D6;
+}
+.nav-area:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.nav-area ul {
+    list-style: none;
+    margin: 0;
+}
+
+.nav-area > ul > li {
+    float: left;
+    position: relative;
+}
+
+.nav-area ul li a{
+    font-size: 25px;
+    text-decoration: none;
+    color: #000;
+    padding: 15px 20px;
+    display: block;
+    width: 200px;
+}
+.nav-area ul li:hover a{
+    background-color: #939393;
+}
+
+.nav-area ul ul {
+    position: absolute;
+    padding: 0;
+    min-width: 160px;
+    display: none;
+    top: 100%;
+    left: 0;
+}
+
+.nav-area ul li:hover> ul {
+    display: block;
+}
+
+.nav-area ul ul li:hover a {
+    background: #d4d4d4;
+}
+
+.nav-area ul ul li{
+    position: relative;
+}
+
+.nav-area ul ul ul{
+    top: 0;
+    left: 100%;
+}
+.nav-area ul ul ul li:hover a{
+    background-color: #616161;
+}
+div.body {
+    position: absolute;
+    width: 100%;
+    height: 1270px;
+    left: 0px;
+    top: 185px;
+}
+
+h3.pname{
+    margin-left: 40px;
+    position: absolute;
+    margin-top: 247px;
+    font-size: 34px;
+    font-family: sans-serif;
+}
+
+div.cart {
+    width: 806px;
+    height: 930px;
+    position: absolute;
+    top: 200px;
+}
+
+img#image {
+    width: 700px;
+    height: 500px;
+    position: absolute;
+    margin-top: 360px;
+}
+
+h6.price {
+    margin-left: 40px;
+    position: absolute;
+    margin-top: 744px;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+p.price{
+    margin-left: 40px;
+    position: absolute;
+    margin-top: 764px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+input.add {
+    margin-left: 40px;
+    position: absolute;
+    margin-top: 802px;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-decoration: none;
+    width: 145px;
+    height: 51px;
+    border-radius: 15px;
+    background-color: #038412;
+    color: #fff;
+    cursor: pointer;
+}
+
+div.description {
+    width: 806px;
+    height: 930px;
+    position: absolute;
+    top: 200px;
+    margin-left: 850px;
+}
+
+div.des1 {
+    width: 806px;
+    height: 100px;
+    position: absolute;
+    margin-top: 160px;
+}
+div.des2 {
+    width: 806px;
+    height: 100px;
+    position: absolute;
+    margin-top: 280px;
+}
+div.des3 {
+    width: 806px;
+    height: 100px;
+    position: absolute;
+    top: 371px;
+}
+div.des4{
+    width: 806px;
+    height: 100px;
+    position: absolute;
+    top: 469px;
+}
+div.des5 {
+    width: 806px;
+    height: 100px;
+    position: absolute;
+    top: 564px;
+}
+div.des6 {
+    width: 806px;
+    height: 100px;
+    position: absolute;
+    top: 657px;
+}
+div.des7 {
+    width: 806px;
+    height: 100px;
+    position: absolute;
+    top: 773px;
+}
+
+p.topic {
+    position: absolute;
+    /* margin-top: 175px; */
+    font-size: 31px;
+    font-family: sans-serif;
+    display: inline-block;
+    text-transform:uppercase;
+
+}
+
+p.content {
+    position: absolute;
+    /* margin-top: 175px; */
+    font-size: 23px;
+    font-family: sans-serif;
+    display: block;
+    text-transform: uppercase;
+    padding-top: 17px;
+}
+
+
+div#footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    width: 100%;
+    height: 267px;
+    top: 1455px;
+    background: #EDEDED;
+
+}
+
+p.quote1 {
+    top: 79px;
+    position: absolute;
+    width: 400px;
+    height: 100px;
+    left: 173px;
+    font-size: 24px;
+    font-family: 'Inter';
+}
+
+img.fblogo {
+    top: 147px;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 290px;
+}
+
+img.instalogo {
+    top: 147px;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 170px;
+}
+
+div.company {
+    font-size: 21px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: static;
+    width: 200px;
+    height: 200px;
+    left: 312.33px;
+    margin-top: 55px;
+    margin-left: 571px;
+    text-decoration: none;
+}
+
+div.resources {
+    font-size: 21px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 312.33px;
+    margin-top: 55px;
+    margin-left: 571px;
+}
+
+div.contact {
+    Font-size: 21px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 622.33px;
+    margin-top: 55px;
+    margin-left: 571px;
+}
+
