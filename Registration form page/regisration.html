@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create your Gadget Account</title>
+    <link rel="stylesheet" href="regisration.css">
+</head>
+<body>
+    <div id="main">
+        <form>
+            <div class="container">
+                <img src="images/privacy.svg" class="img">
+                <p class="p3">One account for all you need</p>
+                <h2 class="shopName">Gadgets</h2>
+                <h4 class="signIn">Create you Gadget Account</h4>
+                <input type="text" name="fname" id="fname" placeholder="First Name">
+                <input type="text" name="Lname" id="Lname" placeholder="Last Name"><br>
+                <input type="email" name="email" id="email" placeholder="Eg: karseldawa@gmail.com">
+                <p class="p1"> you can use number, letter and period.
+                </p><br>
+                <input type="password" name="password" id="password" placeholder="Password...">
+                <input type="password" name="cpassword" id="cpassword" placeholder="Confirm Password"><br>
+                <input type="checkbox" onclick="myFunction()" class="checkbox">
+                <label for="showingPassword" class="showpassword" >Show Password</label>
+                <p class="p2">Use 8 or more characters with a mix of letters, numbers & symbols</p> 
+                <script>
+                    function myFunction() {
+                      var x = document.getElementById("password") ;
+                      var y = document.getElementById("cpassword") ;
+                      if (x.type === "password" && y.type === "password") {
+                        x.type = "text";
+                        y.type = "text";
+                      } else {
+                        x.type = "password";
+                        y.type = "password";
+                      }
+                    }
+                 </script>
+                <a href="D:\class\4th semester\CTE204 - Internet Technologies & Web Engineering\miniproject\project files\login email page\login.html" class="signIn">Sign in instead</a><br><br>
+                <a href="D:\class\4th semester\CTE204 - Internet Technologies & Web Engineering\miniproject\project files\login email page\login.html">
+                <input type="button" value="Next" class="btn">
+                </a>
+            </div>
+    </div>
+</body>
+</html>

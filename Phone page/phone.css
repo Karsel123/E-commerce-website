@@ -1,0 +1,412 @@
+* {
+    margin: 0%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+ div#main {
+    position: relative;
+    width: 100%;
+    height: 2693px;
+    background: #FFFFFF;
+}
+
+div#header{
+    position: absolute;
+    width: 100%;
+    height: 177px;
+    left: 0px;
+    top: 0px;
+    margin: 2px;  
+}
+
+div.heading {
+    position: absolute;
+    width: 100%;
+    height: 120px;
+    left: 0px;
+    top: 0px;
+}
+div.heading a:hover{
+    text-decoration: underline rgb(176, 174, 174) 4px;
+
+}
+
+h3.shopName {
+    position: absolute;
+    width: 198px;
+    height: 69px;
+    left: 77px;
+    top: 35px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 43px;
+    line-height: 52px;
+    color: #000000;
+}
+
+#searchBar {
+    position: absolute;
+    width: 634px;
+    height: 55px;
+    left: 1600px;
+    top: 30px;
+    background: #E1E6EA;
+    border-radius: 104px;
+    text-align: center;
+    font-size: 21px; 
+}
+
+input#searchBar:focus {   
+    outline: none !important;
+    border: 3px solid #D6D6D6;
+}
+
+div.nav{
+    position: absolute;
+    width: 100%;
+    height: 57px;
+    left: 0px;
+    top: 120px;
+    background: #D6D6D6;
+    z-index: 10;
+}
+
+a {
+    font-size: 30px;
+    color: #000;
+    text-decoration: none;
+}
+
+.nav-area {
+    background: #D6D6D6;
+}
+.nav-area:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.nav-area ul {
+    list-style: none;
+    margin: 0;
+}
+
+.nav-area > ul > li {
+    float: left;
+    position: relative;
+}
+
+.nav-area ul li a{
+    font-size: 25px;
+    text-decoration: none;
+    color: #000;
+    padding: 15px 20px;
+    display: block;
+    width: 200px;
+}
+.nav-area ul li:hover a{
+    background-color: #939393;
+    overflow:visible;
+    
+}
+
+.nav-area ul ul {
+    position: absolute;
+    padding: 0;
+    min-width: 160px;
+    display: none;
+    top: 100%;
+    left: 0;
+}
+
+.nav-area ul li:hover> ul {
+    display: block;
+}
+
+.nav-area ul ul li:hover a {
+    background: #d4d4d4;
+}
+
+.nav-area ul ul li{
+    position: relative;
+}
+
+.nav-area ul ul ul{
+    top: 0;
+    left: 100%;
+}
+.nav-area ul ul ul li:hover a{
+    background-color: #616161;
+}
+
+div#body {
+    position: absolute;
+    width: 100%;
+    height: 2240px;
+    left: 0px;
+    top: 185px;
+}
+
+div.ElectronicsSection {
+    position: absolute;
+    width: 100%;
+    height: 707px;
+    left: 0px;
+    top: 60px;
+    margin: 0%;
+}
+
+div.eProductImage {
+    position: relative;
+    width: 100%;
+    height: 576px;
+    text-align: center;
+}
+
+
+.ePic1 {
+    position: absolute;
+    width: 399px;
+    height: 450px;
+    left: 53px;
+    top: 50px;
+}
+
+.ePic2{
+    position: absolute;
+    width: 399px;
+    height: 450px;
+    left: 653px;
+    top: 50px;
+}
+
+.ePic3{
+    position: absolute;
+    width: 399px;
+    height: 450px;
+    left: 1253px;
+    top: 50px;
+}
+
+
+.ePic4{
+    position: absolute;
+    width: 399px;
+    height: 450px;
+    left: 1800px;
+    top: 50px;
+}
+
+img#eproduct1 {
+    width: 399px;
+    height: 450px;
+    margin-bottom: 34px;
+}
+
+img#eproduct2 {
+    width: 399px;
+    height: 450px;
+}
+
+div.InstrumentSection {
+    position: absolute;
+    width: 100%;
+    height: 772px;
+    left: 0px;
+    top: 684px;
+}
+
+div.iProductImage {
+    position: relative;
+    width: 1930px;
+    height: 576px;
+    text-align: center;
+}
+
+.iPic1{
+    position: absolute;
+    width: 399px;
+    height: 450px;
+    left: 56px;
+    top: 9px;
+}
+
+.iPic2{
+    position: absolute;
+    width: 399px;
+    height: 450px;
+    left: 653px;
+    top: 9px;
+}
+
+.iPic3 {
+    position: absolute;
+    width: 399px;
+    height: 450px;
+    left: 1253px;
+    top: 9px;
+}
+
+.iPic4 {
+    position: absolute;
+    width: 399px;
+    height: 450px;
+    left: 1800px;
+    top: 9px;
+}
+
+img#product {
+    width: 399px;
+    height: 450px;
+}
+
+img#product1 {
+    margin-top: 98px;
+    width: 399px;
+    height: 450px;
+}
+
+
+div.AppliancesSection {
+    position: absolute;
+    width: 100%;
+    height: 750px;
+    left: 0px;
+    top: 1462px;
+}
+
+h2.aHead {
+    margin: 0%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 98px;
+    line-height: 120px;
+    color: #000000;
+    text-align: center;
+}
+
+div.aProductImage {
+    position: relative;
+    width: 1930px;
+    height: 576px;
+    text-align: center;
+}
+
+div.aPic1 {
+    position: absolute;
+    width: 399px;
+    height: 450px;
+    left: 53px;
+    top: 9px;    
+}
+
+div.aPic2 {
+    position: absolute;
+    width: 399px;
+    height: 450px;
+    left: 653px;
+    top: 9px;
+}
+
+
+div.aPic3{
+    position: absolute;
+    width: 399px;
+    height: 450px;
+    left: 1253px;
+    top: 9px;
+}
+
+div.aPic4{
+    position: absolute;
+    width: 399px;
+    height: 450px;
+    left: 1800px;
+    top: 9px;
+}
+
+div#footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    width: 100%;
+    height: 267px;
+    top: 2425px;
+    background: #EDEDED;
+}
+
+p.quote1 {
+    top: 79px;
+    position: absolute;
+    width: 400px;
+    height: 100px;
+    left: 173px;
+    font-size: 24px;
+    font-family: 'Inter';
+}
+
+img.fblogo {
+    top: 147px;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 290px;
+}
+
+img.instalogo {
+    top: 147px;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 170px;
+}
+
+div.company {
+    font-size: 21px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: static;
+    width: 200px;
+    height: 200px;
+    left: 312.33px;
+    margin-top: 55px;
+    margin-left: 571px;
+    text-decoration: none;
+}
+
+div.resources {
+    font-size: 21px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 312.33px;
+    margin-top: 55px;
+    margin-left: 571px;
+}
+
+div.contact {
+    Font-size: 21px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 622.33px;
+    margin-top: 55px;
+    margin-left: 571px;
+}
+

@@ -1,0 +1,186 @@
+* {
+    margin: 0%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+ div#main {
+    position: relative;
+    width: 100%;
+    background: #FFFFFF;
+}
+
+div#main {
+    height: 573px;
+    width: 800px;
+    border: 2px solid rgb(205, 202, 202);
+    display: inline-block;
+    margin-left: 35%;
+    margin-top: 10%;
+    border-radius: 15px;
+}
+
+h2.shopName {
+    position: relative;
+    font-size: 45px;
+    font-family: sans-serif;
+    margin-top: 50px;
+    margin-left: 40px;
+    font-weight: 100;
+    text-align: left;
+}
+
+h4.signIn {
+    position: absolute;
+    font-size: 31px;
+    font-family: sans-serif;
+    margin-top: 10px;
+    margin-left: 40px;
+    font-weight: 100;
+    text-align: left;
+
+}
+
+input#fname {
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 40px;
+    border-radius: 15px;
+    height: 35px;
+    width: 25%; 
+    text-align: center;  
+}
+
+input#fname:focus {   
+    outline: none !important;
+    border: 3px solid #1a73e8;
+}
+
+input#Lname {
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 260px;
+    border-radius: 15px;
+    height: 35px;
+    width: 25%; 
+    text-align: center;  
+}
+
+input#Lname:focus {   
+    outline: none !important;
+    border: 3px solid #1a73e8;
+}
+
+input#email {
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 40px;
+    border-radius: 15px;
+    height: 35px;
+    width: 52%;  
+    text-align: center; 
+}
+
+input#email:focus {   
+    outline: none !important;
+    border: 3px solid #1a73e8;
+}
+
+p.p1{
+    position: absolute;
+    margin-top: 170px;
+    margin-left: 43px;
+    opacity: 0.5;
+}
+  
+input#password {
+    position: absolute;
+    margin-top: 190px;
+    margin-left: 35px;
+    border-radius: 15px;
+    height: 35px;
+    width: 25%;
+    text-align: center;
+}
+
+input#password:focus {   
+    outline: none !important;
+    border: 3px solid #1a73e8;
+}
+
+input#cpassword {
+    position: absolute;
+    margin-top: 190px;
+    margin-left: 260px;
+    border-radius: 15px;
+    height: 35px;
+    width: 25%;
+    text-align: center;
+}
+
+input#cpassword:focus {   
+    outline: none !important;
+    border: 3px solid #1a73e8;
+}
+
+p.p2{
+    position: absolute;
+    margin-top: 220px;
+    margin-left: 43px;
+    opacity: 0.5;
+}
+input.checkbox {
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 44px;
+}
+
+label.showpassword {
+    position: absolute;
+    margin-top: 247px;
+    margin-left: 63px;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+a.signIn {
+    position: absolute;
+    margin-top: 330px;
+    margin-left: 40px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 100;
+    text-decoration: none;
+    color: #1a73e8;
+}
+input.btn{
+    position: absolute;
+    margin-top: 290px;
+    margin-left: 370px;   
+    font-size: 20px;
+    font-family: sans-serif;
+    text-decoration: none;
+    width: 100px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: #1a73e8;
+    color: #fff;
+}
+
+.img{
+    position: absolute;
+    margin-top: 76px;
+    margin-bottom: 500px;
+    margin-left: 500px;
+    width: 300px;
+    height: 334px;
+}
+
+p.p3 {
+    top: 391px;
+    position: relative;
+    margin-left: 549px;
+    text-transform: capitalize;
+}
